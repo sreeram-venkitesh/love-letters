@@ -39,7 +39,7 @@ def textCollect(love_letter_links):
 
 def textRangeSelector(content):
    final_text = ''
-   for i in range(3):
+   for i in range(len(content)):
        print(i)
        for j in range(len(content[i])):
            print(j)
