@@ -53,6 +53,7 @@ def textRangeSelector(content):
 
        for j in range(a,b):           
            text += str(content[i][j])
+           text += ("\n")
        
        soup = BeautifulSoup(text)
        final_text += str(soup.get_text())
