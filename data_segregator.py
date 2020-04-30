@@ -7,7 +7,7 @@ letters = text_file.split('\n\n\n')
 # print(letters[0])
 
 for i in range(len(letters)):
-    filename = 'letters/' + str(i)
+    filename = 'letters/' + str(i)+'.txt'
     text_file = open(filename,'wt')
     n = text_file.write(letters[i])
     text_file.close()
